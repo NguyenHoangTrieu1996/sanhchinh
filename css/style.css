@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    transition: transform 2s ease, opacity .5s ease-out
+    transition: transform .4s linear !important;
 }
 
 body {
@@ -81,9 +81,13 @@ body {
     align-items: center;
 } */
 
-.customCarousel .carousel-inner .carousel-item .carousel-caption {
+.carousel-caption {
     position: fixed;
     z-index: 1000;
+    right: 15%;
+    left: 15%;
+    text-align: center;
+    bottom: 10%;
 }
 
 .customCarousel .carousel-inner .carousel-item .carousel-caption h5 {
